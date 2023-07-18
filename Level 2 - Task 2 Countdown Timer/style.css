@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+/* 06283d */
+
+body {
+  height: 90vh;
+  widows: 100%;
+  background-color: #e0e3eb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  height: 60vh;
+  width: 550px;
+  background-color: #06283d;
+  border: 2px solid #e0e3eb;
+  border-radius: 15px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 1);
+  overflow: hidden;
+}
+
+#disp {
+  height: 10vh;
+  width: 100%;
+  color: white;
+  text-align: center;
+  font-size: 45px;
+  line-height: 10vh;
+}
+
+form {
+  height: 35vh;
+  width: 100%;
+  background-color: white;
+  line-height: 45vh;
+  text-align: center;
+}
+
+form input {
+  width: 130px;
+  border: none;
+  outline: none;
+  border-bottom: 3px solid #06283d;
+  color: #06283d;
+  font-size: 60px;
+  text-align: center;
+}
+
+form input::placeholder {
+  font-size: 20px;
+  color: #06283d;
+  font-weight: 500;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.btn {
+  height: 15vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.btn button {
+  padding: 5px 10px;
+  font-size: 25px;
+  background-color: #06283d;
+  color: white;
+  border-color: aqua;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.btn button:hover {
+  color: #06283d;
+  background-color: #e0e3eb;
+  border-color: aqua;
+}
